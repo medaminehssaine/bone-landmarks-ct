@@ -1,0 +1,20 @@
+{
+  "n_cases": 214,
+  "n_cases_json_axcodes_differ_from_image": 0,
+  "n_vertebrae_compared": 2824,
+  "n_labels_json_only": 0,
+  "n_labels_mask_only": 0,
+  "dist_mm": {
+    "min": 0.009478391157290317,
+    "p25": 10.68821397649056,
+    "median": 12.120767459303886,
+    "p75": 13.29145923491047,
+    "p95": 14.764860768622729,
+    "max": 19.61604445916986
+  },
+  "mean_offset_RAS_mm (mask COM - json)": [
+    0.029377553707372765,
+    -11.157904411619324,
+    0.6106044499818368
+  ]
+}

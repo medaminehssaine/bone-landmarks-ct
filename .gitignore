@@ -1,0 +1,26 @@
+# data never goes in git (VerSe is CC BY-SA 4.0, download it yourself)
+data/
+*.nii
+*.nii.gz
+*.zip
+
+# model outputs / checkpoints
+runs/
+checkpoints/
+nnLandmark_*/
+totalseg_out/
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

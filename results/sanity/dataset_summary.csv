@@ -1,0 +1,4 @@
+split,scans,patients,vertebrae,cervical,lumbar,thoracic,fractured,healthy,ungraded
+01_training,61,61,775,118,252,405,4,602,169
+02_validation,80,80,1063,137,336,590,11,864,188
+03_test,73,73,986,153,298,535,5,770,211

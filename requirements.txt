@@ -1,0 +1,15 @@
+# core (phase 0); tested with Python 3.12
+numpy>=1.26
+nibabel>=5.2
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+pyyaml>=6.0
+remotezip>=0.12   # fetch single cases from the VerSe zips via HTTP range requests
+
+# dev
+pytest>=8.0
+ruff>=0.5
+
+# later phases (installed separately, see README):
+# TotalSegmentator, nnLandmark, torch

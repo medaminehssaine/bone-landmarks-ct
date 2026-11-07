@@ -1,0 +1,5 @@
+group,n,median_dist_mm,p95_dist_mm,median_d_R,median_d_A,median_d_S
+C1 (atlas),49,0.03,0.06,-0.0,-0.0,-0.0
+cervical,359,8.6,12.38,0.12,-7.98,2.74
+lumbar,886,12.2,14.88,-0.06,-11.83,-1.98
+thoracic,1530,12.58,14.9,0.05,-11.94,0.39

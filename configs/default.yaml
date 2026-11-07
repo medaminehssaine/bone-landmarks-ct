@@ -1,0 +1,23 @@
+# Paths are relative to the repo root.
+data_root: data/verse20          # contains 01_training/ 02_validation/ 03_test/
+fracture_csv: data/fracture/Genant_Fractures_thoracolumbar_reference.csv
+results_dir: results
+
+seed: 42
+
+verse:
+  base_url: https://s3.bonescreen.de/public/VerSe-complete
+  zips:
+    training: dataset-verse20training.zip
+    validation: dataset-verse20validation.zip
+    test: dataset-verse20test.zip
+  # Genant grades on OSF (VerSe'19 + '20), node 4skx2
+  fracture_csv_url: https://osf.io/download/694557530f0cd6a1041594bf/
+
+eval:
+  id_radius_mm: 20.0           # VerSe identification threshold
+  max_label: 28                # VerSe'20 label range (T13 = 28)
+
+bootstrap:
+  n_resamples: 2000
+  ci: 0.95
